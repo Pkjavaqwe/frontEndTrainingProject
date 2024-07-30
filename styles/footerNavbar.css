@@ -1,0 +1,48 @@
+.footer-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Image Preview Styles */
+#imagePreview {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
+    display: none;
+    height: 200px;
+    width: 300px;
+}
+
+#imagePreview img {
+    max-width: 200px;
+    max-height:  300px;
+}

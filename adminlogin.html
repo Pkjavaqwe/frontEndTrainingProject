@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Admin Login</h2>
+        <form action="/admin_dashboard">
+            <div class="inputgrp">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <p id="userError"></p>
+            </div>
+            <div class="inputgrp">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                <p id="passError"></p>
+                <p >atleast one smallcase alphabet required: <b id="passError1"></b></p>
+                <p>password must contain atleast one capital leter <b id="passError2"></b></p>
+                <p>password must contain atleast one number <b  id="passError3"></b></p>
+                <p>password must contain atleast one special symbol <b id="passError4"></b></p>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+    <script src="./javascript/loginFormValidation.js"></script>
+</body>
+</html>
