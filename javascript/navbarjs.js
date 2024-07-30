@@ -1,8 +1,10 @@
+// navbar usig js
+
 const navBarElement = [
-    {nofLink: "Home", href:"#"},
-    {nofLink: "About", href:"#"},
     {nofLink: "Admin Login", href:"./adminlogin.html"},
     {nofLink: "Add Product", href:"./edit-product.html"},
+    {nofLink: "Home", href:"#"},
+    {nofLink: "About", href:"#"},
     {nofLink: "Contact Us", href:"#"}
 ]
 
@@ -27,5 +29,6 @@ function navbarUsingJs() {
 }
 
 navbarUsingJs()
+
 
 
