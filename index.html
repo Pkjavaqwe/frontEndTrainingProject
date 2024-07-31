@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/footerNavbar.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Product Management System</h1>
         <!-- <nav>
             <a href="./edit-product.html">Add Product</a>
@@ -92,7 +92,18 @@
     <script src="./javascript/addElementToFlexJs.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./jquery/jquery.js"></script>
-     
+    <script>
+       $(document).ready(function(){
+    $('.product-item h2').hover(
+        function() {
+            $(this).siblings('p').stop().animate({ height: 'show' }, 300);
+        }, 
+        function() {
+            $(this).siblings('p').stop().animate({ height: 'hide' }, 300);
+        }
+    );
+});
+    </script>
        
 </body>
 </html>

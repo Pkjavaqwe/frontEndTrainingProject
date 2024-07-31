@@ -32,7 +32,7 @@ main {
     margin-bottom: 20px;
 }
 
-.categories button {
+/* .categories button {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
@@ -43,7 +43,7 @@ main {
 
 .categories button:hover {
     background-color: #555;
-}
+} */
 
 .product-list {
     display: flex;
@@ -58,6 +58,7 @@ main {
     padding: 20px;
     border-radius: 10px;
     width: 200px,
+    
 }
 
 /* #product-item-id{
@@ -70,6 +71,7 @@ main {
 
 .product-item p {
     margin: 10px ;
+    display: none;
 }
 
 .actions {
